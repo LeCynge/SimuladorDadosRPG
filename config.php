@@ -1,12 +1,10 @@
 <?php
 
-include 'index.php';
+function diceGenerator(){
 
+    $a = $_POST['dice'];
 
-$a = $_POST['dice'];
-
-
-switch ($a) {
+    switch ($a) {
     case '4':
         $b = rand(1,4);
         echo "O d4 mostra $b";
@@ -44,10 +42,15 @@ switch ($a) {
         echo "O d100 mostra $b";
         break;
     default:
-        echo "Selecione um dado!";
         break;
+    }
+
 }
 
-
+if (isset($_POST['dice'])) {
+    diceGenerator();
+} else {
+    echo "Selecione um dado!";
+}
 
 ?>

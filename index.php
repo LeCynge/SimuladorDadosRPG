@@ -1,11 +1,6 @@
 <?php
 
-'config.php';
-
-
-
-
-
+    session_start()
 
 ?>
 
@@ -23,7 +18,7 @@
     <p>Gere resultados aleatórios de dados para o seu jogo RPG!</p>
     <p>Este gerador foi desenvolvido por @lecynge</p>
 
-    <form action="config.php" method="post">
+    <form action="" method="post">
         <input type="submit" name="dice" value="4">
         <input type="submit" name="dice" value="6">
         <input type="submit" name="dice" value="8">
@@ -35,6 +30,11 @@
         <input type="submit" name="dice" value="100">
     </form>
 
+    <?php
+
+        include 'config.php';
+        
+    ?>
 
 
 </body>
