@@ -16,7 +16,7 @@
 
     <h1>Gerador de Dados RPG</h1>
     <p>Gere resultados aleatórios de dados para o seu jogo RPG!</p>
-    <p>Este gerador foi desenvolvido por @lecynge</p>
+    <p>Este gerador foi desenvolvido por <a href="https://github.com/LeCynge">@LeCynge</a></p>
 
     <form action="" method="post">
         <input type="submit" name="dice" value="4">
@@ -32,9 +32,13 @@
 
     <?php
 
-        include 'config.php';
+        include 'model\config.php';
         
     ?>
+
+    <p>
+        Este é um gerador de dados simples e minimalista para você jogador ou mestre que precisa lançar uns dados rapidamente no meio de uma partida.
+    </p>
 
 
 </body>
