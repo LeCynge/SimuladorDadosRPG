@@ -42,6 +42,7 @@
     ?>
     </div>
 
+    <div class="content">
     <p>
         Este é um gerador de dados simples e minimalista para você jogador ou mestre que precisa lançar 
         uns dados rapidamente no meio de uma partida.
@@ -64,8 +65,7 @@
         vai usá-lo com mais frequência ou não. Há Mestres que os usam apenas em combates, outros para 
         tudo. Vai do seu bom senso e do seu estilo como Mestre.
     </p>
-
-
+    </div>
 
     <footer>
         <h2>Simulador de Dados RPG</h2>
